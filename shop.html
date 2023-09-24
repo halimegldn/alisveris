@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./style/bootstrap-icons.css">
+        <link rel="stylesheet" href="./style/web.css">
+      </head>
+      <body>
+        <div class=" fs-6 ps-5 pe-5 ">
+            <header id="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+                  <a class="logo me-5"  href="#"><img src="https://html.design/demo/picked/images/logo.png"></a>
+                  <div><button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button></div>
+                  <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+                    <div class="navbar-nav fs-5" style="margin-left: 10%;">
+                      <a class="nav-item nav-link text-warning" href="web.html">HOME</a>
+                      <a class="nav-item nav-link text-warning ms-3" href="shop.html">SHOP</a>
+                      <a class="nav-item nav-link text-warning ms-3" href="fruits.html">FRUITS</a>
+                      <a class="nav-item nav-link text-warning ms-3" href="about.html">ABOUT</a>
+                      <a class="nav-item nav-link text-warning ms-3" href="contact.html">CONTACT US</a>
+                      <a class="nav-item nav-link text-warning" href="login.html">Login</a>
+                    </div>
+                  </div>
+                  <div class="text-warning p-3" style="margin-left: 10%;">
+                    <button type="button" class="btn btn-outline-dark"><i class="bi bi-search"></i></button>
+                  </div>        
+                  
+                </nav>
+              </header>
+              
+        </div>  
+       
+        <div class="container" style="margin:12% 0;">
+          <div class="text-center mt-5 mb-5">
+            <h1><b class="banner_taital">Our Fruits</b></h1>
+            <p>Reader will be distracted by the readable content of a</p>
+          </div>   
+          
+          <div class="row justify-content-center">
+            <div class="col-md-2 mb-3">
+              <div class="card" style="width: 12rem;">
+                  <img src="./img/armut.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title text-warning"><b>10 $</b></h5>
+                      <h5 class="card-title"><b>Pear</b></h5>
+                      <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                      <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                      <button class="btn btn-dark" onclick="addToCart(1, 'armut', 10, 'login.html')">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          
+          
+            
+          <div class="col-md-2 mb-3">
+            <div class="card" style="width: 12rem;">
+                <img src="./img/cilek.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Strawberry</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(2, 'cilek', 10, 'login.html')">Buy Now</button>
+
+                </div>
+            </div>
+        </div>
+          
+              <div class="col-md-2 mb-3">
+                <div class="card" style="width: 12rem;">
+                  <img src="./img/elma.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Apple</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(3, 'elma', 10, 'login.html')">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mb-3">
+                <div class="card" style="width: 12rem;">
+                  <img src="./img/karpuz.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Watermelon</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(4, 'karpuz', 10, 'login.html')">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mb-3">
+                <div class="card" style="width: 12rem;">
+                  <img src="./img/kiraz.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Cherry</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(5, 'kiraz', 10, 'login.html')">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-2 mb-3">
+              <div class="card" style="width: 12rem;">
+                <img src="./img/kivi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Kiwi</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(6, 'kivi', 10, 'login.html')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-3">
+              <div class="card" style="width: 12rem;">
+                <img src="./img/muz.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Banana</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(7, 'muz', 10, 'login.html')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-3">
+              <div class="card" style="width: 12rem;">
+                <img src="./img/üzüm.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Grape</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(8, 'uzum', 10, 'login.html')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-3">
+              <div class="card" style="width: 12rem;">
+                <img src="./img/portakal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Orange</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(9, 'portakal', 10, 'login.html')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-3">
+              <div class="card" style="width: 12rem;">
+                <img src="./img/şeftali.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-warning"><b>10 $</b></h5>
+                    <h5 class="card-title"><b>Peach</b></h5>
+                    <h5 class="card-title text-warning"><b>1 Kg</b></h5>
+                    <p class="card-text">adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="btn btn-dark" onclick="addToCart(10, 'seftali', 10, 'login.html')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="container d-flex justify-content-center align-items-center mt-3">
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+        <div>
+          <section>
+            <div class="row d-flex justify-content-center" style="padding: 7%;">
+              <div class="col-md-3 col-xs-12 justify-content-center">
+                <h2 class="text-white mb-4">Address</h2>
+                <div class="d-flex">
+                  <i class="bi bi-geo-alt-fill text-white fs-5 me-2"></i>
+                  <p class="text-white">No.123 Chalingt Gates,</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-telephone-fill text-white fs-5 me-2"></i>
+                  <p class="text-white">( +01 9876543210 )</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-envelope-fill text-white fs-5 me-2"></i>
+                  <p class="text-white">Locations</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-12 justify-content-center">
+                <h2 class="text-white mb-4">Social Links</h2>
+                <div class="d-flex">
+                  <i class="bi bi-facebook text-white fs-5 me-2"></i>
+                  <p class="text-white">Facebook</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-twitter fs-5 me-2 text-white"></i>
+                  <p class="text-white">Twitter</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-instagram me-2 fs-5 text-white"></i>
+                  <p class="text-white">Instagram</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-linkedin fs-5 me-2 text-white"></i>
+                  <p class="text-white">Linkedin</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-12 justify-content-center">
+                <h2 class="text-white mb-4">News letter</h2>
+                <form class="d-block">
+                  <div class="mb-3 position-relative d-flex w-100">
+                    <input type="email" class="form-control p-2 rounded-0" placeholder="Enter Your Email">
+                  </div>
+                  <div class="subscribe d-flex text-lg-center">
+                    <button class="btn btn-warning text-white w-50">Subscribe</button>
+                  </div>
+                </form>
+                
+               
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container mt-3 fs-6">
+          <p class="text-center">
+            Copyright 2023 All Right Reserved By.<a class="test" href="https://html.design/"
+              style="text-decoration: none;color:black;">Free HTML Templates</a>
+          </p>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script src="web.js"></script>
+      </body>
+</html>
+
+
+
+
